@@ -8,8 +8,8 @@ public struct NewUserNotification: Notification {
     }
 }
 
-//: Create NotificationManager instance
-let notificationCenter = NotificationCenter()
+//: Create XNotificationCenter instance
+let notificationCenter = XNotificationCenter()
 
 //: Add a new listener
 let listener = notificationCenter.subscribe(forNotification: NewUserNotification.self) { (notification) in

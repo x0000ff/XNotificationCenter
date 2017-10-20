@@ -1,6 +1,6 @@
 //: [Previous](@previous)
 
-let center = NotificationCenter()
+let center = XNotificationCenter()
 
 let loginNotificationListener1 = center.subscribe(forNotification: LoggedInNotification.self) { (notification) in
     print("111 Hola, \(notification.userName). Token: \(notification.accessToken)")

@@ -23,7 +23,7 @@ public class NotificationListener<T: Notification> {
     }
 }
 
-public class NotificationCenter {
+public class XNotificationCenter {
 
     var listeners = Dictionary<NotificationName, NSMutableArray>()
 
